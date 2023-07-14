@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="indexcss.css"/>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestion des usagers</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+
+    </head>
+    <body>
+        <div class="container" >
+            <div class="contact-box" style="margin-top: 30%;">
+                <form method="post" action="livre.php"  class="right">
+                        <legend><h2>Rechercher un Livre</h2></legend>
+                        <br>
+                        <table width="150%">
+                            <tr>
+                                <td><label for="search">tapez le titre du livre : </label></td>
+                                <td><input type="text" id="idlivre" name="idbook" class="field"><br></td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" id="searchbutton2" name="searchbook" value="Rechercher" class="btn"></td>
+                                <td><input type="submit" id="searchbutton3" name="affichbook" value="Afficher tout les livres" class="btn"></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <legend><h2>Ajouter un livre</h2></legend>
+                        <br>
+                        <table width="150%">
+                            <tr>
+                                
+                                <td><label for="titre">Titre :</label></td>
+                                <td><input type="text" id="titre" name="titre" class="field"><br></td>
+                            </tr>
+                            <tr>
+                                <td ><label for="Auteur">Auteur : </label></td>
+                                <td><input type="text" id="Auteur" name="Auteur" class="field"><br></td>
+                            </tr>
+                            <tr>
+                                <td ><label for="M_edition">Maison d'édition : </label></td>
+                                <td> <input type="text" id="M_edition" name="M_edition" class="field"> </td>
+                            </tr>
+                            <tr>
+                                <td ><label for="Nbr_pages">Nombre des Pages :</label></td>
+                                <td><input type="text" id="Nbr_pages" name="Nbr_page" class="field"></td>
+                            </tr>
+                            <tr>
+                                <td ><label for="Nbr_exemplaires">Nombre d'exemplaires :</label></td>
+                                <td><input type="text" id="Nbr_exemplaires" name="Nbr_exemplaires" class="field"></td>
+                            </tr>
+                            <tr><td><input type="submit" id="addbook" name="addbook" value="Ajouter" class="btn"></td></tr>
+                        </table>
+                        <br><br>
+                        <legend><h2>Modifier / Supprimer un livre</h2></legend>
+                        <br>
+                        <table width="150%">
+                            <tr>
+                                <td><label for="search">tapez le titre du livre : </label></td>
+                                <td><input type="text" id="mdo-livre" name="idmodi-book" class="field"><br></td>
+                                
+                            </tr>
+                            <tr >
+                                <td><input type="submit" id="mod-book" name="modi-book" value="Rechercher" class="btn"></td>
+                                <td><input type="submit" id="deletbook" name="deletbook" value="supprimer" class="btn"></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table>
+                            <tr>
+                            <td><a href="home.html"><input type="button" id="" name="home" value=" Home " class="btn"></a></td>
+                            </tr>
+                        </table>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>

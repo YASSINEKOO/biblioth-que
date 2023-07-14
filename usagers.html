@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="indexcss.css"/>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestion des usagers</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+<body>
+    <div class="container" >
+        <div class="contact-box" style="margin-top: 20%;">
+            <form method="post" action="usagers.php" class="right">
+                    <legend><h2>Rechercher une Personne</h2></legend>
+                    <br>
+                    <table width="150%">
+                        <tr>
+                            <td width="50%"><label for="search">tapez votre email:</label></td>
+                            <td width="50%"><input type="text" id="idemail" name="idemail" class="field"><br></td>
+                        </tr>
+                        <tr>
+                            <td width="50%"><input type="submit" id="searchbutton" name="search" value="Rechercher" class="btn"></td>
+                            <td width="50%"><input type="submit" id="searchbutton1" name="affichpersonne" value="Afficher tout les personnes" class="btn"></td>
+                        </tr>
+                        <tr>
+                            
+                        </tr>
+                    </table>
+                    <br>
+                    
+                    <br>
+                    <legend><h2>Personne Coordonnées</h2></legend>
+                    <br>
+                    <table width="150%">
+                        <tr>
+                            
+                            <td><label for="nom">Nom :</label></td>
+                            <td><input type="text" id="nom" name="nom" class="field"><br></td>
+                        </tr>
+                        <tr>
+                            <td ><label for="prenom">Prénom :</label></td>
+                            <td><input type="text" id="prenom" name="prenom" class="field"><br></td>
+                        </tr>
+                        <tr>
+                            <td ><label for="email">Email :</label></td>
+                            <td> <input type="email" id="email" name="email" class="field"> </td>
+                        </tr>
+                        <tr>
+                            <td ><label for="adress">Adress :</label></td>
+                            <td><input type="text" id="adress" name="adress" class="field"></td>
+                        </tr>
+                        <tr>
+                            <td ><label for="Prof">Ensignant :</label></td>
+                            <td><input type="radio" id="Prof" name="Statut" value="Ensignat"></td>
+                        </tr>
+                        <tr>
+                            <td ><label for="Student">Etudiant :</label></td>
+                            <td><input type="radio" id="Student" name="Statut" value="Etudiant"><br></td>
+                        </tr>
+                        <tr><td><input type="submit" id="savebutton" name="save" value="Enregistrer" class="btn"></td></tr>
+                    </table>
+                    <table>
+                        <tr><td><a href="emprunts.html"><input type="button" id="empruntbutton" value="Empruter >>" class="btn"></a></td></tr>
+                    </table>
+                    <table>
+                        <tr>
+                        <td><a href="home.html"><input type="button" id="" name="home" value=" Home " class="btn"></a></td>
+                        </tr>
+                    </table>
+            </form>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="indexcss.css"/>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestion des usagers</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <script src="js.js"></script>
+    </head>
+    
+    <body>
+        <div class="container" >
+            <div class="contact-box" style="margin-top: 30%;">
+                <form method="post" action="emprunts.php" class="right">
+                        <legend><h2>Emprunter un livre</h2></legend>
+                        <table width="150%">
+                            <tr>
+                                <td ><label for="adress">Adress e-mail du personne :</label></td>
+                                <td><input type="text" id="adress" name="adress" class="field"></td>
+                            </tr>
+                        </table>
+                        <table width="150%">
+                            <tr>
+                                <td><label for="titre">Titre :*</label></td>
+                                <td><input type="text" id="titre" name="titre" class="field"><br></td>
+                            </tr>
+                            <tr>
+                                <td ><label for="Auteur">Auteur :*</label></td>
+                                <td><input type="text" id="Auteur" name="Auteur" class="field"><br></td>
+                            </tr>
+                            <tr>
+                                <td ><label for="date d'emprunt">Date d'emprunt :*</label></td>
+                                <td> <input type="date" id="date_emprunt" name="date_emprunt" class="field"> </td>
+                            </tr>
+                            <tr>
+                                <td ><label for="Date de retour">Date de retour :*</label></td>
+                                <td><input type="date" id="date_retour" name="date_retour" class="field"></td>
+                            </tr>
+                        </table>
+                        <table width="150%">
+                            <tr>
+                                <td>
+                                    <input type="submit" id="valid" name="valid" value="Valider" class="btn">
+                                </td>
+                            </tr>
+                        </table>
+                        <legend><h2>Rendre un livre</h2></legend>
+                        <table width="150%">
+                            <tr>
+                                <td ><label for="adressr">Adress e-mail du personne :</label></td>
+                                <td><input type="text" id="adressr" name="adressr" class="field"></td>
+                            </tr>
+                        </table>
+                        <table width="150%">
+                            <tr>
+                                <td><label for="titrer">Titre :*</label></td>
+                                <td><input type="text" id="titrer" name="titrer" class="field"><br></td>
+                            </tr>
+                            <tr>
+                                <td ><label for="Auteurr">Auteur :*</label></td>
+                                <td><input type="text" id="Auteurr" name="Auteurr" class="field"><br></td>
+                            </tr>
+                        </table>
+                        <table width="150%">
+                            <tr>
+                                <td>
+                                    <input type="submit" id="valid1" name="valid1" value="Valider" class="btn">
+                                </td>
+                            </tr>
+                        </table>
+                    <table>
+                        <tr>
+                        <td><a href="home.html"><input type="button" id="" name="home" value=" Home " class="btn"></a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        
+    </body>

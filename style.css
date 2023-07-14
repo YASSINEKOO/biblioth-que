@@ -1,0 +1,98 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #e0e4e0;
+	color: rgb(5, 5, 5);
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #ffff;
+	padding: 9%;
+
+}
+
+.formulaire {
+	margin: 2% 23%;
+	width: 50%;
+	padding: 2%;
+	padding-right: 2%;
+	background-color: #9b3e3eee;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.685);
+}
+
+fieldset {
+	border-color: #fff;
+    border-style:dashed;
+	margin: 0;
+	padding: 3%;
+}
+
+legend :hover{
+    text-align: center;
+    cursor:help;
+    color:#b0c4bc;
+}
+
+table {
+	margin: 2% 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table td {
+	padding: 2%;
+	border: 1px solid rgb(173, 172, 172);
+}
+
+
+.green{
+	background-color: #9fff82;
+}
+.red{
+	background-color: #ff6560;
+}
+.yellow{
+	background-color: #fff67b;
+}
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    margin: 10px;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
