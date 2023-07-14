@@ -11,65 +11,65 @@
         <link rel="stylesheet" type="text/css" href="style2.css">
     </head>
 <body>
-    <div class="container" >
-        <div class="contact-box" style="margin-top: 20%;">
+    <div class="container1" >
+        <div class="contact-box1" >
             <form method="post" action="usagers.php" class="right">
                     <legend><h2>Rechercher une Personne</h2></legend>
-                    <br>
-                    <table width="150%">
-                        <tr>
-                            <td width="50%"><label for="search">tapez votre email:</label></td>
-                            <td width="50%"><input type="text" id="idemail" name="idemail" class="field"><br></td>
-                        </tr>
-                        <tr>
-                            <td width="50%"><input type="submit" id="searchbutton" name="search" value="Rechercher" class="btn"></td>
-                            <td width="50%"><input type="submit" id="searchbutton1" name="affichpersonne" value="Afficher tout les personnes" class="btn"></td>
-                        </tr>
-                        <tr>
+                    <br><div class="box">
                             
-                        </tr>
-                    </table>
+                            <input type="text" id="idemail" name="idemail" class="field" placeholder="tapez votre email"><br>
+                        </div>
+                        <div class="box">
+                            <input type="submit" id="searchbutton" name="search" value="Rechercher" class="btn">
+                            <input type="submit" id="searchbutton1" name="affichpersonne" value="Afficher tout les personnes" class="btn">
+                        </div>
                     <br>
                     
                     <br>
                     <legend><h2>Personne Coordonnées</h2></legend>
                     <br>
-                    <table width="150%">
-                        <tr>
+                    
+                        
+                    <div class="box"> 
+
+                            <input type="text" id="nom" name="nom" class="field" placeholder="Nom"><br>
+                    </div>
+                        <div class="box">
+            
+                           <input type="text" id="prenom" name="prenom" class="field" placeholder="Prénom"><br>
+                        </div>
+                        <div class="box">
                             
-                            <td><label for="nom">Nom :</label></td>
-                            <td><input type="text" id="nom" name="nom" class="field"><br></td>
-                        </tr>
-                        <tr>
-                            <td ><label for="prenom">Prénom :</label></td>
-                            <td><input type="text" id="prenom" name="prenom" class="field"><br></td>
-                        </tr>
-                        <tr>
-                            <td ><label for="email">Email :</label></td>
-                            <td> <input type="email" id="email" name="email" class="field"> </td>
-                        </tr>
-                        <tr>
-                            <td ><label for="adress">Adress :</label></td>
-                            <td><input type="text" id="adress" name="adress" class="field"></td>
-                        </tr>
-                        <tr>
-                            <td ><label for="Prof">Ensignant :</label></td>
-                            <td><input type="radio" id="Prof" name="Statut" value="Ensignat"></td>
-                        </tr>
-                        <tr>
-                            <td ><label for="Student">Etudiant :</label></td>
-                            <td><input type="radio" id="Student" name="Statut" value="Etudiant"><br></td>
-                        </tr>
-                        <tr><td><input type="submit" id="savebutton" name="save" value="Enregistrer" class="btn"></td></tr>
-                    </table>
-                    <table>
-                        <tr><td><a href="emprunts.html"><input type="button" id="empruntbutton" value="Empruter >>" class="btn"></a></td></tr>
-                    </table>
-                    <table>
-                        <tr>
-                        <td><a href="home.html"><input type="button" id="" name="home" value=" Home " class="btn"></a></td>
-                        </tr>
-                    </table>
+                             <input type="email" id="email" name="email" class="field" placeholder="Email"> 
+                            </div>
+                            <div class="box">
+                            
+                            <input type="text" id="adress" name="adress" class="field" placeholder="Adress">
+                            </div>
+                            <div class="box2">
+                                <section class="radio-section">
+                                    <div class="radio-list">
+                                    <div class="radio-item">   
+                                <input type="radio" name="Statut" value="Ensignant" id="radio1">
+                                <label for="radio1">Ensignant</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio"  id="radio2" name="Statut" value="Etudiant">
+                                <label for="radio2">Etudiant</label>
+                            </div>
+                                    </div>
+                                
+                                        <input type="submit" id="savebutton" name="save" value="Enregistrer" class="btn">
+                                        
+                                
+                                            <a href="emprunts.html"><input type="button" id="empruntbutton" value="Empruter >>" class="btn"></a>
+                                            <a href="home.html"><input type="button" id="" name="home" value=" Home " class="btn"></a>
+                            
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    
             </form>
         </div>
         
